@@ -1,0 +1,534 @@
+@charset "UTF-8";
+
+.main {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main {
+  max-width: 1400px; 
+  }
+  
+@media (min-width: 360px) {
+  .main {
+    width: 360px; }
+  .node {
+  	text-align: right;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+  }
+  .smallNode {
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-bottom: 5%;
+  }
+  .biggerNode {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  .bigNode {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  .middleNode {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+   .firstNode {
+	margin-top:0;
+  }
+  
+  .subcat--small{
+  	float: left;
+  }
+  .subcat--middle {
+  	float: right;
+  }
+  .subcat--bigger {
+  	float: right;
+  }
+  .subcat--big {
+  	float: left;
+  }
+  /*
+  .firstNode {
+		padding-left: 35%;
+		padding-right: 35%;
+	}
+	
+	.secondNode {
+		padding-left: 35%;
+		padding-right: 35%;
+	}
+	
+	.thirdNode {
+		padding-left: 35%;
+		padding-right: 35%;
+	}
+	
+	.forthNode {
+		padding-left: 35%;
+		padding-right: 35%;
+	} 
+	*/
+	
+	textarea {
+		width: 60%;
+	} 
+}
+
+@media (min-width: 768px) {
+  .main {
+    width: 750px; }
+  .node {
+  	text-align: right;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+  }
+  .smallNode {
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-bottom: 5%;
+  }
+  .biggerNode {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  .bigNode {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  .middleNode {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+   .firstNode {
+	margin-top:0;
+  }
+    .subcat--small{
+  	float: left;
+  }
+  .subcat--middle {
+  	float: right;
+  }
+  .subcat--bigger {
+  	float: right;
+  }
+  .subcat--big {
+  	float: left;
+  }
+  /*
+  .firstNode {
+		padding-left: 35%;
+		padding-right: 35%;
+	}
+	
+	.secondNode {
+		padding-left: 35%;
+		padding-right: 35%;
+	}
+	
+	.thirdNode {
+		padding-left: 35%;
+		padding-right: 35%;
+	}
+	
+	.forthNode {
+		padding-left: 35%;
+		padding-right: 35%;
+	} 
+	*/ 
+	textarea {
+		width: 100%;
+	} 
+}
+
+@media (min-width: 992px) {
+  .main {
+    width: 1200px; }
+    .node {
+  	text-align: left;
+  	margin-top: 5%;
+	float: left;
+	margin-left: 25%;
+  }
+  
+  .smallNode {
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-bottom: 5%;
+  }
+  .biggerNode {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  .bigNode {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  .middleNode {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  .firstNode {
+	margin-top:0;
+  }
+    .subcat--small{
+  	float: left;
+  }
+  .subcat--middle {
+  	float: right;
+  }
+  .subcat--bigger {
+  	float: right;
+  }
+  .subcat--big {
+  	float: left;
+  }
+  
+  	textarea {
+		width: 100%;
+	}
+}
+
+@media (min-width: 1230px) {
+  .main {
+    width: 1400px; }
+  .node {
+  	text-align: right;
+  	margin-top: 5%;
+	float: left;
+	margin-left: 0;
+  }
+  .smallNode {
+ 	margin-left: 15%;
+  }
+  .biggerNode {
+    margin-left: 70%;
+  }
+  .bigNode {
+    margin-left: 15%;
+  }
+  .middleNode {
+    margin-left: 50%;
+  }
+  .firstNode {
+	margin-top:20%;
+  }
+   .subcat--small{
+  	float: left;
+  }
+  .subcat--middle {
+  	float: right;
+  }
+  .subcat--bigger {
+  	float: right;
+  }
+  .subcat--big {
+  	float: left;
+  }
+  	textarea {
+		width: 100%;
+	}
+}
+
+@media (min-width: 1024px) {
+  .main {
+    width: 1024px; }
+  .node {
+  	text-align: right;
+  	margin-top: 5%;
+	float: left;
+	margin-left: 0;
+  }
+  .smallNode {
+ 	margin-left: 15%;
+  }
+  .biggerNode {
+    margin-left: 70%;
+  }
+  .bigNode {
+    margin-left: 15%;
+  }
+  .middleNode {
+    margin-left: 50%;
+  }
+  .firstNode {
+	margin-top:20%;
+}
+   .subcat--small{
+  	float: left;
+  }
+  .subcat--middle {
+  	float: right;
+  }
+  .subcat--bigger {
+  	float: right;
+  }
+  .subcat--big {
+  	float: left;
+  }
+  	textarea {
+		width: 100%;
+	}
+}
+/*
+@media (min-width: 992px) and (max-width: 1230px) {
+  .main {
+    width: 100% !important; } 
+  .node {
+  	text-align: right;
+  	margin-top: 5%;
+	float: left;
+	margin-left: 25%;
+  }
+  
+  .smallNode {
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-bottom: 5%;
+  }
+  .biggerNode {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  .bigNode {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  .middleNode {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  /*
+  .firstNode {
+	padding-left: 40%;
+	padding-right:0;
+	}
+	
+	.secondNode {
+		padding-left: 70%;
+		padding-right:0;
+	}
+	
+	.thirdNode {
+		padding-left: 30%;
+		padding-right:0;
+	}
+	
+	.forthNode {
+		padding-left: 65%;
+		padding-right:0;
+	} 
+	*/   
+}
+*/    
+    
+.node {
+
+}
+
+
+.plot {
+	padding: 20px;
+}
+
+.image_container {
+	padding: 20px;
+	//height: 450px;
+}
+
+.h2_container {
+	padding: 20px;
+}
+
+.desktop-header {
+	padding-top: 40px;
+	padding-bottom: 20px
+}
+
+.smallNode{
+	height: 25px;
+	width: 25px;
+	background-color: #bbb;
+	border-radius: 100%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	text-align: center;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.biggerNode{
+	height: 100px;
+	width: 100px;
+	background-color: #bbb;
+	border-radius: 100%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	text-align: center;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.bigNode {
+	height: 235px;
+	width: 235px;
+	background-color: #bbb;
+	border-radius: 100%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	text-align: center;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	cursor: pointer;
+}
+
+.middleNode {
+	height: 70px;
+	width: 70px;
+	background-color: #bbb;
+	border-radius: 100%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	text-align: center;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	cursor: pointer;
+}
+
+.smallestNode {
+	height: 10px;
+	width: 10px;
+	background-color: #bbb;
+	border-radius: 100%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	text-align: center;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.link {
+	/*
+	cursor: pointer;
+	height: 10px;
+	width: 10px;
+	background-color: #bbb;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	text-align: center;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	*/
+}
+.poster_img {
+	width:100%;
+}
+
+.subCat {
+	float: right;
+}
+
+
+.even {
+	margin-left: 25%;
+}
+
+.odd {
+	margin-left: 15%;
+}
+
+.secondLevel {
+	margin-top: 5%;
+	/*overflow: auto;*/
+	display: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.subNode {
+	/*background-color: #6699ff;*/
+	line-height: 15px;
+}
+
+.thirdLevel {
+	margin-top: 5%;
+	overflow: auto;
+	display: none;
+	text-align: left;
+}
+
+.element {
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.secondNode .smallNode {
+	margin-left: 50%;
+}
+
+.section {
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+
+input{
+    background-color: #fff;
+    border: 1px solid #d2d2d2;
+    color: #000;
+    font-size: 100%;
+    padding: 0.72em 0.65em;
+}
+.hiddenLabel {
+	display: none;
+}
+
+.form__row {
+	margin-top: 20px;
+}
+
+.submit__btn {
+	margin-top: 20px;
+	color: #6f6f6f;
+    background-color: transparent;
+    border-color: #6f6f6f;
+    word-wrap: break-word;
+	padding: 8px 18px;
+	font-family: HelveticaNeue-Medium,Arial,sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	border-width: 2px;
+	border-style: solid;
+	cursor: pointer;
+}

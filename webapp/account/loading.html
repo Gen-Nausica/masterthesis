@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="/my-app-0.0.1-SNAPSHOT/js/script.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/style.css">
+	<!-- script section -->
+	<!-- jQuery library -->
+	<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<title>Loading</title>
+</head>
+<body>
+<div class="main">
+	<div class="row desktop-header">
+		<div class="col-xs-12 col-md-8 col-lg-8">
+			<h1>Informationen werden geladen</h1>
+		</div>
+	</div>
+	<div class="section">
+		<div class="row">
+			<div class="col-xs-12 col-md-12 col-lg-12">
+				<div class="loading">
+					<p>Bitte haben Sie etwas Geduld, während die Informationen geladen werden.</p>
+					<script>
+						var name = getUrlParameter("q");
+						window.location.href = "/my-app-0.0.1-SNAPSHOT/account/Info.jsp?q="+name;
+					</script> 
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

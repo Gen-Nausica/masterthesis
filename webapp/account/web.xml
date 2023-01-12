@@ -1,0 +1,43 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<listener>
+    <listener-class>org.apache.shiro.web.env.EnvironmentLoaderListener</listener-class>
+  </listener>
+  <filter>
+    <filter-name>ShiroFilter</filter-name>
+    <filter-class>org.apache.shiro.web.servlet.ShiroFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>ShiroFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+ <!--
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>Masterarbeit.my_app.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>
+-->
+  <servlet>
+    <servlet-name>CreateGroupServlet</servlet-name>
+    <servlet-class>Masterarbeit.my_app.CreateGroupServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateGroupServlet</servlet-name>
+    <url-pattern>/account/CreateGroupServlet</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>JoinGroupServlet</servlet-name>
+    <servlet-class>Masterarbeit.my_app.JoinGroupServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JoinGroupServlet</servlet-name>
+    <url-pattern>/account/JoinGroupServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
